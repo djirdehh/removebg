@@ -36,7 +36,7 @@ function Modal({ open, setOpen }) {
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white border-2 border-purple-500 text-center shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
-                <div className="bg-white px-4 pt-5 pb-6 sm:p-5 sm:pb-5">
+                <div className="bg-white px-4 pt-5 pb-6 sm:p-4 sm:pb-6">
                   <div className="sm:flex sm:items-start">
                     <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-center">
                       <Image
@@ -95,10 +95,7 @@ function Modal({ open, setOpen }) {
                           >
                             Daniel Gatis
                           </a>
-                          .
-                        </p>
-                        <p className="text-sm text-gray-700 mt-4">
-                          The app is inspired by the{" "}
+                          . The app is inspired by the{" "}
                           <a
                             href="https://restorephotos.io/"
                             target="_blank"
