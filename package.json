@@ -10,6 +10,7 @@
     "test": "npm run lint && npm run build"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.12",
     "@next/font": "13.0.7",
     "@tailwindcss/forms": "^0.5.3",
     "aos": "^2.3.4",

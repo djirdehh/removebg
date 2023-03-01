@@ -60,7 +60,7 @@ function Footer() {
             >
               restorephotos.io
             </a>{" "}
-            | Powered by{" "}
+            | Built with{" "}
             <a
               href="https://replicate.ai/"
               target="_blank"
@@ -68,6 +68,15 @@ function Footer() {
               className="text-purple-600"
             >
               Replicate
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://nextjs.org/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-purple-600"
+            >
+              Next.js
             </a>
           </div>
         </div>
