@@ -16,6 +16,8 @@
 
 - ✨ Uses <a href="https://tailwindcss.com/docs/" target="_blank">Tailwind</a> for styling and mimics the <a href="https://github.com/cruip/tailwind-landing-page-template" target="_blank">Cruip Simple Light</a> langing page template.
 
+- 📄 Uses <a href="https://upload.io/" target="_blank">Upload</a> to handle file uploads.
+
 - 🎉 Uses <a href="https://nextjs.org/" target="_blank">Next.js</a> for building the app and <a href="https://vercel.com/" target="_blank">Vercel</a> for deployment.
 
 ### Other
@@ -32,4 +34,4 @@ https://user-images.githubusercontent.com/12476938/222479570-cafe238f-8de5-4e6b-
 
 - Clone the repo
 - `cd removebg`
-- `yarn run dev` runs the app in development mode.
+- `yarn run dev` to run the app in development mode.
