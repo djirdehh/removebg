@@ -28,8 +28,8 @@
 
 https://user-images.githubusercontent.com/12476938/222479570-cafe238f-8de5-4e6b-99d5-eb086f6c53da.mp4
 
-### Locally using yarn
+### Steps to run locally with yarn
 
-- Clone/download the repo
+- Clone the repo
 - `cd removebg`
 - `yarn run dev` runs the app in development mode.
