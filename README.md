@@ -26,6 +26,8 @@
 
 ## Demo
 
+https://user-images.githubusercontent.com/12476938/222479570-cafe238f-8de5-4e6b-99d5-eb086f6c53da.mp4
+
 ### Locally using yarn
 
 - Clone/download the repo
