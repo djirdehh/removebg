@@ -1,8 +1,9 @@
-import "aos/dist/aos.css";
-import "../styles/globals.css";
-
 import { useEffect } from "react";
 import AOS from "aos";
+import { Analytics } from "@vercel/analytics/react";
+
+import "aos/dist/aos.css";
+import "../styles/globals.css";
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -20,5 +21,10 @@ export default function App({ Component, pageProps }) {
     document.querySelector("html").style.scrollBehavior = "";
   }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
 }
