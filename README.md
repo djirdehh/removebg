@@ -1,37 +1,33 @@
-## Getting started with Next.js and Replicate
+<div align="center">
+<p>
+<img src="https://www.removebg.dev/_next/image?url=%2Fimages%2Flogo.png&w=128&q=75" width="50"/>
+</p>
 
-This is a [Next.js](https://nextjs.org/) template project that's preconfigured to work with Replicate's API.
+<p><b>removebg.dev</b> is an app designed to quickly and easily remove image backgrounds for free.</p>
 
-You can use this as a quick jumping-off point to build a web app using Replicate's API, or you can recreate this codebase from scratch by following the guide at [replicate.com/docs/get-started/nextjs](https://replicate.com/docs/get-started/nextjs)
+<p><a href="https://www.removebg.dev/" target="_blank">Launch App</a></p>
+</div>
 
-## Noteworthy files
+## How it's built
 
-- [pages/index.js](pages/index.js) - The React frontend that renders the home page in the browser
-- [pages/api/predictions/index.js](pages/api/predictions/index.js) - The backend API endpoint that calls Replicate's API to create a prediction
-- [pages/api/predictions/[id].js](pages/api/predictions/[id].js) - The backend API endpoint that calls Replicate's API to get the prediction result
+- 🔩 Uses the <a href="https://github.com/danielgatis/rembg" target="_blank">rembg</a> ML model built by <a href="https://github.com/danielgatis" target="_blank">Daniel Gatis</a>.
 
-## Usage
+- 💪 Uses <a href="https://replicate.com/" target="_blank">Replicate</a> to interact with the ML model through an API.
 
-Install dependencies:
+- ✨ Uses <a href="https://replicate.com/" target="_blank">Tailwind</a> for styling.
 
-```console
-npm install
-```
+- 🎉 Uses <a href="https://nextjs.org/" target="_blank">Next.js</a> for building the app and <a href="https://vercel.com/" target="_blank">Vercel</a> for deployment.
 
-Add your [Replicate API token](https://replicate.com/account#token) to `.env.local`:
+### Other
 
-```
-REPLICATE_API_TOKEN=<your-token-here>
-```
+- Check out the <a href="https://replicate.com/docs/reference/examples" target="_blank">Example Projects</a> section of Replicate docs for other apps built with Replicate.
 
-Run the development server:
+- Inspired by <a href="restorephotos.io" target="_blank">restorephotos.io</a> built by <a href="https://twitter.com/nutlope" target="_blank">Hassan El Mghari</a>.
 
-```console
-npm run dev
-```
+## Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser.
+### Locally using yarn
 
-For detailed instructions on how to create and use this template, see [replicate.com/docs/get-started/nextjs](https://replicate.com/docs/get-started/nextjs)
-
-<img src="https://user-images.githubusercontent.com/2289/208017930-a39ca4d5-2410-4049-bce0-20718480c73b.png" alt="app screenshot">
+- Clone/download the repo
+- `cd removebg`
+- `yarn run dev` runs the app in development mode.

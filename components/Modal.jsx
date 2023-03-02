@@ -54,9 +54,8 @@ function Modal({ open, setOpen }) {
                       </Dialog.Title>
                       <div className="mt-2">
                         <p className="text-sm text-gray-700">
-                          Removebg.dev is a hobby app designed for anyone who
-                          wants to quickly and easily remove the background from
-                          an image. At the moment, the app is free to use.
+                          removebg.dev is an app designed to quickly and easily
+                          remove image backgrounds for free.
                         </p>
                         <p className="text-sm text-gray-700 mt-4">
                           The app is built with{" "}
