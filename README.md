@@ -14,7 +14,7 @@
 
 - 💪 Uses <a href="https://replicate.com/" target="_blank">Replicate</a> to interact with the ML model through an API.
 
-- ✨ Uses <a href="https://replicate.com/" target="_blank">Tailwind</a> for styling.
+- ✨ Uses <a href="https://tailwindcss.com/docs/" target="_blank">Tailwind</a> for styling and mimics the <a href="https://github.com/cruip/tailwind-landing-page-template" target="_blank">Cruip Simple Light</a> langing page template.
 
 - 🎉 Uses <a href="https://nextjs.org/" target="_blank">Next.js</a> for building the app and <a href="https://vercel.com/" target="_blank">Vercel</a> for deployment.
 
