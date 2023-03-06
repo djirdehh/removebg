@@ -28,17 +28,10 @@ function DownloadPhoto({
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
               <div className="pt-28 pb-12 md:pt-28 md:pb-20">
                 <div className="max-w-3xl mx-auto text-center pb-6 md:pb-6">
-                  <h4
-                    className="text-xl md:text-2xl font-extrabold leading-tighter tracking-tighter mb-4"
-                    data-aos="zoom-y-out"
-                  >
+                  <h4 className="text-xl md:text-2xl font-extrabold leading-tighter tracking-tighter mb-4">
                     Background being removed...
                   </h4>
-                  <p
-                    className="text-lg text-gray-600 mb-8"
-                    data-aos="zoom-y-out"
-                    data-aos-delay="150"
-                  >
+                  <p className="text-lg text-gray-600 mb-8">
                     This <i>should</i> only take a few seconds 🙂
                   </p>
                 </div>
