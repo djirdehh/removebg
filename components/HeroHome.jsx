@@ -36,28 +36,17 @@ function HeroHome({ uploadButtonElement }) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="text-center pb-12 md:pb-16">
-            <h1
-              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
-              data-aos="zoom-y-out"
-            >
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4">
               Remove image backgrounds{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
                 for free
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p
-                className="text-xl text-gray-600 mb-8"
-                data-aos="zoom-y-out"
-                data-aos-delay="150"
-              >
+              <p className="text-xl text-gray-600 mb-8">
                 Remove image backgrounds in seconds. No cost attached.
               </p>
-              <div
-                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
-                data-aos="zoom-y-out"
-                data-aos-delay="300"
-              >
+              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                 {uploadButtonElement("Upload")}
               </div>
             </div>
