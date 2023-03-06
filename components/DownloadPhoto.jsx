@@ -43,7 +43,7 @@ function DownloadPhoto({
                   </p>
                 </div>
 
-                <div>
+                <div className="hidden sm:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="69"
@@ -56,7 +56,7 @@ function DownloadPhoto({
                     ></path>
                   </svg>
                 </div>
-                <div>
+                <div className="hidden sm:block">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="69"
@@ -100,7 +100,7 @@ function DownloadPhoto({
                 )}
               </div>
 
-              <div>
+              <div className="hidden sm:block">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="69"
@@ -131,7 +131,7 @@ function DownloadPhoto({
                   }
                 />
               </div>
-              <div>
+              <div className="hidden sm:block">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="69"
