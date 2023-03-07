@@ -13,12 +13,14 @@ import {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const uploader = Uploader({
-  apiKey: process.env.UPLOAD_API_TOKEN ? process.env.UPLOAD_API_TOKEN : "free",
+  apiKey: process.env.NEXT_PUBLIC_UPLOAD_API_TOKEN
+    ? process.env.NEXT_PUBLIC_UPLOAD_API_TOKEN
+    : "free",
 });
 
 export default function Home() {
   console.log("test", process.env);
-  console.log("test", process.env.UPLOAD_API_TOKEN);
+  console.log("test", process.env.NEXT_PUBLIC_UPLOAD_API_TOKEN);
   const [photoName, setPhotoName] = useState(null);
   const [originalPhoto, setOriginalPhoto] = useState(null);
 
