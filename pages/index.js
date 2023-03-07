@@ -17,7 +17,8 @@ const uploader = Uploader({
 });
 
 export default function Home() {
-  console.log("test", process.env.UPLOAD_API_TOKEN)
+  console.log("test", process.env);
+  console.log("test", process.env.UPLOAD_API_TOKEN);
   const [photoName, setPhotoName] = useState(null);
   const [originalPhoto, setOriginalPhoto] = useState(null);
 
