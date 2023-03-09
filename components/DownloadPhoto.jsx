@@ -5,7 +5,7 @@ import {
 } from "react-compare-slider";
 import { saveAs } from "file-saver";
 
-const regex = /^(.+)(\.(png|jpg|jpeg))$/;
+// const regex = /^(.+)(\.(png|jpg|jpeg))$/;
 
 function DownloadPhoto({
   originalPhoto,
@@ -15,9 +15,11 @@ function DownloadPhoto({
   timeOfRequest,
   uploadButtonElement,
 }) {
-  const outputPhotoFileName = photoName.replace(regex, "$1-removebg$2");
+  // TODO
+  // const outputPhotoFileName = photoName.replace(regex, "$1-removebg$2");
+
   const downloadImage = () => {
-    saveAs(outputPhoto, outputPhotoFileName);
+    saveAs(outputPhoto, "removebg-download.png");
   };
 
   if (loading) {
